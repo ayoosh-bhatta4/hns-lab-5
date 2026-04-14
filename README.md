@@ -92,11 +92,3 @@ This project demonstrates deploying a machine learning model as a FastAPI web se
 ├── README.md
 └── ...
 ```
-
-## License
-
-MIT License. See [LICENSE](LICENSE) for details.
-
-## Author
-
-Abhijeet Maharana
