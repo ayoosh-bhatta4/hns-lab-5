@@ -52,7 +52,7 @@ def home():
 
 @app.get("/info", tags=["Information"])
 def info():
-    return {"message": "Hello My name is Abhijeet and this is my first model deployment in AWS and CICD Pipeline."}
+    return {"message": "Hello This is Code n Canvas and this is our first model deployment in AWS and CICD Pipeline."}
 @app.get("/view", tags=["view of people"])
 def view():
     data = {
