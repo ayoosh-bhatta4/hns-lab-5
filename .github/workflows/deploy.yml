@@ -21,7 +21,7 @@ jobs:
     - name: Deploy to EC2 and run Docker
       run: |
         ssh -o StrictHostKeyChecking=no ec2-user@${{ secrets.EC2_HOST }} << 'EOF'
-          cd CICD-Model-Deployement-AWS || git clone https://github.com/abhi227070/CICD-Model-Deployement-AWS.git && cd CICD-Model-Deployement-AWS
+          cd HNS_lab || git clone https://github.com/ayoosh-bhatta4/HNS_lab.git && cd HNS_lab
           git pull origin main
           echo "AWS_ACCESS_KEY=${{ secrets.AWS_ACCESS_KEY }}" > .env
           echo "AWS_SECRET_KEY=${{ secrets.AWS_SECRET_KEY }}" >> .env
